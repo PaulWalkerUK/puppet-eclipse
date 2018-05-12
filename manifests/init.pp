@@ -7,10 +7,10 @@
 #  include eclipse
 #
 class eclipse (
-  $package         = 'standard',
-  $release_name    = 'kepler',
-  $service_release = 'SR2',
-  $method          = 'package',
+  $package         = 'java',
+  $release_name    = 'oxygen',
+  $service_release = '3a',
+  $method          = 'download',
   $owner_group     = undef,
   $ensure          = present
 ) {
